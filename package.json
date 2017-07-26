@@ -1,0 +1,51 @@
+{
+  "author": "Evan Tahler <admin@actionherojs.com>",
+  "name": "actionhero-react-next-chat",
+  "description": "actionhero-react-next-chat",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/actionhero/actionhero-react-next-chat"
+  },
+  "engines": {
+    "node": "8.x.x"
+  },
+  "dependencies": {
+    "next": "^3.0.1-beta.18",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.1",
+    "react-dom": "^15.6.1",
+    "react-fontawesome": "^1.5.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-jest": "^20.0.3",
+    "babel-preset-es2015": "^6.24.0",
+    "jest-cli": "^20.0.4",
+    "standard": "^10.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postinstall": "npm run build",
+    "start": "NODE_ENV=production next start",
+    "test": "jest",
+    "pretest": "standard"
+  },
+  "standard": {
+    "ignore": [
+      "static/*",
+      "vendor/*"
+    ],
+    "globals": [
+      "fetch",
+      "FormData",
+      "confirm",
+      "prompt",
+      "describe",
+      "expect",
+      "it"
+    ]
+  }
+}
