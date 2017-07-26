@@ -112,6 +112,7 @@ export default class extends React.Component {
             <Col md={8}>
               <h1>ActionHero</h1>
               <h2>Testing React + Next.js + Chat</h2>
+              <p>Learn more at <a href='https://github.com/actionhero/actionhero-react-next-chat'>https://github.com/actionhero/actionhero-react-next-chat</a></p>
             </Col>
           </Row>
         </Jumbotron>
