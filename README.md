@@ -1,3 +1,7 @@
+[![CircleCI](https://circleci.com/gh/actionhero/actionhero-react-next-chat.svg?style=svg)](https://circleci.com/gh/actionhero/actionhero-react-next-chat)
+
+I am an isomorphic React + Next.JS project that uses ActionHero websockets.
+
 ## Install
 This is a [React Project](https://facebook.github.io/react/) utilizing [next.js](https://github.com/zeit/next.js/) and [react-bootstrap](https://react-bootstrap.github.io/)
 
@@ -13,7 +17,7 @@ I connect to `demo.actionherojs.com` as the API server
 - `npm run build`
 - `npm run serve`
 
-The master branch of this repository is automatically deployed by circle.ci on a successful test run to www.messagebot.io.  
+The master branch of this repository is automatically deployed by circle.ci on a successful test run to react.actionherojs.com.  
 
 ## Linting
 
