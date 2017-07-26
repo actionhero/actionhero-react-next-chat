@@ -29,8 +29,8 @@ export default class extends React.Component {
     client.on('connected', () => { this.setState({state: 'connected', id: client.id}) })
     client.on('disconnected', () => { this.setState({state: 'disconnected'}) })
     client.on('error', (error) => { this.setState({error}) })
-    client.on('reconnect', () => { console.log('reconnect') })
-    client.on('reconnecting', () => { console.log('reconnecting') })
+    client.on('reconnect', () => { this.setState({state: 'reconnect'}) })
+    client.on('reconnecting', () => { this.setState({state: 'reconnecting'}) })
 
     client.on('alert', function (message) { console.warn(message) })
     client.on('api', function (message) { console.warn(message) })
