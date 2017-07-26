@@ -124,9 +124,13 @@ export default class extends React.Component {
                 <Label>State: {this.state.state}</Label>
               </p>
               <p>
-                <Label bsStyle='primary'>
-                  You are <span style={{color: this.getColor(this.state.id)}}>{this.state.id}</span>
-                </Label>
+                {
+                  this.state.id
+                  ? <Label bsStyle='primary'>
+                    You are <span style={{color: this.getColor(this.state.id)}}>{this.state.id}</span>
+                  </Label>
+                  : null
+                }
               </p>
 
               <Form onSubmit={this.submit.bind(this)}>
