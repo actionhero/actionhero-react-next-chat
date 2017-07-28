@@ -40,7 +40,9 @@ export default class extends React.Component {
 
     client.connect((error, details) => {
       if (error) { return this.setState({error}) }
-      client.roomAdd(this.state.room)
+      client.action('createChatRoom', {name: this.state.room}, () => {
+        client.roomAdd(this.state.room)
+      })
     })
   }
 
