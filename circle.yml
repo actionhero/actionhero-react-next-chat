@@ -5,3 +5,14 @@ machine:
 test:
   override:
     - 'npm test'
+
+general:
+  branches:
+    ignore:
+      - gh-pages
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - bin/deploy

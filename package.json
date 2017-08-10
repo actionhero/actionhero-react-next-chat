@@ -12,9 +12,9 @@
     "node": "8.x.x"
   },
   "dependencies": {
-    "next": "^3.0.1-beta.18",
+    "next": "^3.0.3",
     "react": "^15.6.1",
-    "react-bootstrap": "^0.31.1",
+    "react-bootstrap": "^0.31.2",
     "react-dom": "^15.6.1",
     "react-fontawesome": "^1.5.0"
   },
@@ -23,13 +23,10 @@
     "babel-jest": "^20.0.3",
     "babel-preset-es2015": "^6.24.0",
     "jest-cli": "^20.0.4",
-    "standard": "^10.0.0"
+    "standard": "^10.0.3"
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "postinstall": "npm run build",
-    "start": "next start -p $PORT",
     "test": "jest",
     "pretest": "standard"
   },
