@@ -19,7 +19,7 @@ export default class extends React.Component {
   componentDidMount () {
     // (this comes from the server, loaded via index.html)
     // we need to load this after the component is mounted to the server doesn't try to render this isomorphically
-    let client = new ActionheroClient({url: this.state.url}) // eslint-disable-line
+    let client = new ActionheroWebsocketClient({url: this.state.url}) // eslint-disable-line
     this.setState({client}, () => this.connect())
   }
 
