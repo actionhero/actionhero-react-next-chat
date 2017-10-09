@@ -12,7 +12,7 @@
     "node": "8.x.x"
   },
   "dependencies": {
-    "next": "^3.0.3",
+    "next": "^4.0.0",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.2",
     "react-dom": "^15.6.1",
