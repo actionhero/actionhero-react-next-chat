@@ -3,6 +3,8 @@
 I am an isomorphic React + Next.JS project that uses ActionHero websockets.
 
 ## Install
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/actionhero/actionhero-react-next-chat.svg)](https://greenkeeper.io/)
 This is a [React Project](https://facebook.github.io/react/) utilizing [next.js](https://github.com/zeit/next.js/) and [react-bootstrap](https://react-bootstrap.github.io/)
 
 I connect to `demo.actionherojs.com` as the API server
