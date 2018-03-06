@@ -36,10 +36,10 @@ export default class extends React.Component {
 
           {
             this.props.children
-            ? this.props.children
-            : this.props.error
-              ? null
-              : <em>Loading...</em>
+              ? this.props.children
+              : this.props.error
+                ? null
+                : <em>Loading...</em>
           }
 
           <Footer />

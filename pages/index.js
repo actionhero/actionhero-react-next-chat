@@ -128,10 +128,10 @@ export default class extends React.Component {
               <p>
                 {
                   this.state.id
-                  ? <Label bsStyle='primary'>
+                    ? <Label bsStyle='primary'>
                     You are <span style={{color: this.getColor(this.state.id)}}>{this.state.id}</span>
-                  </Label>
-                  : null
+                    </Label>
+                    : null
                 }
               </p>
 
