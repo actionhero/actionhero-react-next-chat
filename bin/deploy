@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 cd ..
 
 REMOTE=$(git config remote.origin.url)
-git config --global user.email "admin@actionherojs.com"
+git config --global user.email "deploy@actionherojs.com"
 git config --global user.name "CircleCI for ActionHero"
 
 ## Build the project into the "out" directory
