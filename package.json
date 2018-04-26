@@ -9,7 +9,7 @@
     "url": "https://github.com/actionhero/actionhero-react-next-chat"
   },
   "engines": {
-    "node": "8.x.x"
+    "node": "10"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
