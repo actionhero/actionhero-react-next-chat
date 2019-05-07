@@ -13,6 +13,7 @@ I connect to `demo.actionherojs.com` as the API server
 
 ## Running in Development
 - `npm run dev`
+- point your browser to localhost:3000
 
 ## Building for Production
 
