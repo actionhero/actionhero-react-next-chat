@@ -18,7 +18,8 @@
     "react": "^16.8.6",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.8.6",
-    "react-fontawesome": "^1.6.1"
+    "react-fontawesome": "^1.6.1",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "babel-jest": "^24.8.0",
@@ -31,7 +32,9 @@
   "scripts": {
     "dev": "next dev",
     "test": "jest",
-    "pretest": "standard"
+    "pretest": "standard",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "standard": {
     "ignore": [
@@ -47,5 +50,6 @@
       "expect",
       "it"
     ]
-  }
+  },
+  "snyk": true
 }
