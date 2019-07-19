@@ -4,5 +4,6 @@ npm-debug.log
 .DS_Store
 .env
 build
+out
 .next
 static/sitemap.xml
