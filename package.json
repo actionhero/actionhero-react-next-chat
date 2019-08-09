@@ -24,7 +24,7 @@
     "babel-jest": "^24.8.0",
     "jest": "^24.8.0",
     "react-addons-test-utils": "15.6.2",
-    "react-test-renderer": "16.8.6",
+    "react-test-renderer": "16.9.0",
     "request": "^2.88.0",
     "standard": "^13.0.2"
   },
