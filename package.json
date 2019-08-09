@@ -15,7 +15,7 @@
     "acorn": "^6.2.0",
     "babel-core": "7.0.0-bridge.0",
     "next": "^9.0.2",
-    "react": "^16.8.6",
+    "react": "^16.9.0",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.8.6",
     "react-fontawesome": "^1.6.1"
