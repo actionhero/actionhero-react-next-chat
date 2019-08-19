@@ -26,7 +26,7 @@
     "react-addons-test-utils": "15.6.2",
     "react-test-renderer": "16.8.6",
     "request": "^2.88.0",
-    "standard": "^13.0.2"
+    "standard": "^14.0.0"
   },
   "scripts": {
     "dev": "next dev",
