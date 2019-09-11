@@ -59,11 +59,14 @@ export default class extends React.Component {
       return <ListGroupItem key={key}><strong>{`*** ${message.welcome} ***`}</strong></ListGroupItem>
     } else {
       return (
-        <ListGroupItem key={key} header={
-          <div>
-            <span style={{ color: this.getColor(message.from) }}>{message.from}</span> @ {this.formatTime(message.sentAt)}
-          </div>
-        }>{message.message}</ListGroupItem>
+        <ListGroupItem
+          key={key} header={
+            <div>
+              <span style={{ color: this.getColor(message.from) }}>{message.from}</span> @ {this.formatTime(message.sentAt)}
+            </div>
+          }
+        >{message.message}
+        </ListGroupItem>
       )
     }
   }
@@ -128,10 +131,7 @@ export default class extends React.Component {
               <p>
                 {
                   this.state.id
-                    ? <Label bsStyle='primary'>
-                    You are <span style={{ color: this.getColor(this.state.id) }}>{this.state.id}</span>
-                    </Label>
-                    : null
+                    ? <Label bsStyle='primary'>You are <span style={{ color: this.getColor(this.state.id) }}>{this.state.id}</span></Label> : null
                 }
               </p>
 
