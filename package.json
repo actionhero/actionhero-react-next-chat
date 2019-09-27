@@ -13,9 +13,9 @@
   },
   "dependencies": {
     "next": "^9.0.5",
-    "react": "^16.9.0",
+    "react": "^16.10.0",
     "react-bootstrap": "^0.32.4",
-    "react-dom": "^16.9.0",
+    "react-dom": "^16.10.0",
     "react-fontawesome": "^1.6.1"
   },
   "devDependencies": {
@@ -23,7 +23,7 @@
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
     "react-addons-test-utils": "15.6.2",
-    "react-test-renderer": "16.9.0",
+    "react-test-renderer": "16.10.0",
     "request": "^2.88.0",
     "standard": "^14.2.0"
   },
